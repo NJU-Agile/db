@@ -10,10 +10,7 @@
     "answers": [
         {} // ObjectId, 用于更改用户信息后遍历更改其中信息
     ],
-    "root_comments": [
+    "comments": [
         {} // ObjectId, 用于更改用户信息后遍历更改其中信息
-    ],
-    "voted_answers": [
-        {} // ObjectId
     ]
 }

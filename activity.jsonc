@@ -1,0 +1,17 @@
+{
+    "_id": {}, // ObjectId
+    "src_user": {
+        "user_id": {},
+        "username": ""
+    },
+    "tgt_user": {
+        "user_id": {},
+        "username": ""
+    },
+    "target": {
+        "type": "", // "user"|"question"|"answer"|"comment"
+        "id": {},
+        "brief": "" // 概要
+    },
+    "create_time": {} // 发生时间
+}
