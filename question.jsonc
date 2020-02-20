@@ -1,0 +1,18 @@
+{
+    "_id": {}, // ObjectId
+    "title": "",
+    "detail": "",
+    "tags": [],
+    "create_user": { // username 和 avatar_url 发生变更后会被追溯修改
+        "user_id": {},
+        "username": "",
+        "avatar_url": "",
+        "anonymous": false
+    },
+    "answers": [
+        {} // ObjectId, 问题信息修改后遍历修改其中相关信息
+    ],
+    "root_comments": [
+        {} // ObjectId
+    ]
+}

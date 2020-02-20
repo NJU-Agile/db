@@ -1,0 +1,20 @@
+{
+    "_id": {}, // ObjectId
+    "author": { // username 和 avatar_url 发生变更后会被追溯修改
+        "user_id": {}, // ObjectId
+        "username": "",
+        "intro": "", // 话题经验, 每个回答不一样
+        "avatar_url": "",
+        "anonymous": false
+    },
+    "question": {
+        "question_id": {}, // ObjectId
+        "question_title": "" // 问题标题, 问题信息变更后会被追溯修改
+    },
+    "content": "",
+    "create_date": {}, // Date
+    "modify_data": {}, // Date
+    "root_comments": [
+        {} // ObjectId
+    ]
+}

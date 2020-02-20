@@ -1,0 +1,16 @@
+{
+    "_id": {},
+    "is_author": false, // 是否是回答/问题的作者, 此author非评论作者!!
+    "author": {
+        "user_id": {}, // ObjectId
+        "username": "",
+        "avatar_url": "",
+        "anonymous": false
+    },
+    "content": "",
+    "voteup_count": 0,
+    "votedown_count": 0,
+    "child_comments": [ // 存其回复
+        {} // ObjectId
+    ]
+}

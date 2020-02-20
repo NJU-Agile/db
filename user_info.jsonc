@@ -1,0 +1,19 @@
+{
+    "_id": {}, // ObjectId
+    "email": "",
+    "username": "hyf",
+    "gender": 1,
+    "avatar_url": "",
+    "questions": [
+        {} // ObjectId, 用于更改用户信息后遍历更改其中信息
+    ],
+    "answers": [
+        {} // ObjectId, 用于更改用户信息后遍历更改其中信息
+    ],
+    "root_comments": [
+        {} // ObjectId, 用于更改用户信息后遍历更改其中信息
+    ],
+    "voted_answers": [
+        {} // ObjectId
+    ]
+}
